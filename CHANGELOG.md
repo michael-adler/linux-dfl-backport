@@ -2,6 +2,18 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.11.0-2]
+
+### Added
+
+- Document parent/child AFU port relationship ([55a4090](https://github.com/OFS/linux-dfl-backport/commit/55a40900aaafa88f43f5c5f5b65f3dc747e4c67e)).
+
+### Fixed
+
+- Fix automatic loading of 8250_dfl driver ([c955739](https://github.com/OFS/linux-dfl-backport/commit/c955739bb74695d75bdf3eee6dd1a8ab438c865d)).
+
+[1.11.0-2]: https://github.com/OFS/linux-dfl-backport/compare/intel-1.11.0-1...intel-1.11.0-2
+
 ## [1.11.0-1]
 
 This release builds with the Linux distribution kernels shipped with:
