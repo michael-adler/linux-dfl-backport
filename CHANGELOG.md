@@ -2,6 +2,25 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.12.0-1]
+
+This release builds with the Linux distribution kernels shipped with:
+
+- RHEL 8.2 to 8.10, and 9.0 to 9.5.
+- Fedora 40 and 41.
+- Ubuntu 20.04, 22.04, and 24.04.
+
+### Fixed
+
+- Fix regression querying platform device in `power_hwmon_write()` ([a98607b](https://github.com/OFS/linux-dfl-backport/commit/a98607b9ba9fa12e82e7d1696dd838700dd53a90)).
+- Fix warnings about missing prototypes in `qsfp-mem-core` driver ([9d84f4d](https://github.com/OFS/linux-dfl-backport/commit/9d84f4d9d6832915c71e4e71c3b66470bead023b)).
+- Consistently use CVL in MAX 10 BMC sensor labels ([cb86311](https://github.com/OFS/linux-dfl-backport/commit/cb863118d5997fc964109fbf728eb42767cb0179)).
+- Fix missing `free()` of type in `binfo_create_feature_dev_data()` ([7035881](https://github.com/OFS/linux-dfl-backport/commit/7035881a7660c01f21c92afd5384aa36b42ef59e)).
+- Fix dfl MODULE_DEVICE_TABLE built on big-endian host ([6e26c62](https://github.com/OFS/linux-dfl-backport/commit/6e26c623e1a9b765d72cb3c66a03186dc84ba7a3)).
+- Fix leaking device id for released ports ([7f68320](https://github.com/OFS/linux-dfl-backport/commit/7f68320df3675c7e55fc081ff48be29297e70996)).
+
+[1.12.0-1]: https://github.com/OFS/linux-dfl-backport/compare/intel-1.11.0-2...intel-1.12.0-1
+
 ## [1.11.0-2]
 
 ### Added
