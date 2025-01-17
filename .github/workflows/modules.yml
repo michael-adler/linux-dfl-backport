@@ -91,6 +91,9 @@ jobs:
           - vendor: ubuntu
             release: '22.04'
             pkg: deb
+          - vendor: ubuntu
+            release: '24.04'
+            pkg: deb
 
     container:
       image: ghcr.io/ofs/linux-dfl-backport/${{ matrix.vendor }}-kernel-devel:${{ matrix.release }}
