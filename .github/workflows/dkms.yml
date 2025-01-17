@@ -44,10 +44,10 @@ jobs:
       matrix:
         include:
           - vendor: rockylinux
-            release: '8'
+            release: '9'
             pkg: rpm
           - vendor: ubuntu
-            release: '22.04'
+            release: '24.04'
             pkg: deb
 
     container:
