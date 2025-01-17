@@ -71,6 +71,9 @@ jobs:
           - image: rockylinux-kernel-devel
             container: rockylinux-8-kernel-devel
             tag: '9.2'
+          - image: rockylinux-kernel-devel
+            container: rockylinux-8-kernel-devel
+            tag: '9.4'
           - image: debian-kernel-devel
             container: debian-12-kernel-devel
             tag: '12'
