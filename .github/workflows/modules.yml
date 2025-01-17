@@ -79,6 +79,9 @@ jobs:
           - vendor: rockylinux
             release: '9.2'
             pkg: rpm
+          - vendor: rockylinux
+            release: '9.4'
+            pkg: rpm
           - vendor: debian
             release: '12'
             pkg: deb
