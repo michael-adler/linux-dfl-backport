@@ -50,10 +50,10 @@ jobs:
             release: '8.3.2011'
             pkg: rpm
           - vendor: fedora
-            release: '39'
+            release: '40'
             pkg: rpm
           - vendor: fedora
-            release: '40'
+            release: '41'
             pkg: rpm
           - vendor: fedora
             release: 'rawhide'
